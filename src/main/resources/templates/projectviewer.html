@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>NOTA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Nota Belanja</div>
+        <hr>
+        <table border ="2">
+        <tr>
+            <th>Nama Sayur : </th>
+            <td th:text="${nama_barang}"></td>
+        </tr>
+        <tr>
+            <th>Jumlah beli : </th>
+            <td th:text="${jumlah_barang}"></td>
+        </tr>
+        <tr>
+            <th>Uang dibayarkan : </th>
+            <td th:text="${bayar_awal}"></td>
+        </tr>
+        <tr>
+            <th>Harga Awal : </th>
+            <td th:text="${harga_barang}"></td>
+        </tr>
+        <tr>
+            <th>Total : </th>
+            <td th:text="${total}"></td>
+        </tr>
+        <tr>
+            <th>Diskon : </th>
+             <td th:text="${diskon_a}"></td>
+        </tr>
+        <tr>
+            <th>Keterangan : </th>
+            <td th:text="${Ket}"></td>  
+        </tr>
+        </table>
+    </body>
+</html>
